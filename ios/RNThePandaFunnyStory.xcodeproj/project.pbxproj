@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05CE559394EBFFFFA54575D7 /* Pods_RNThePandaFunnyStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB8416C91E4AD2088C07B7B /* Pods_RNThePandaFunnyStory.framework */; };
-		977584232A662CA400EDFCC8 /* RNThePandaFunnyShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 977584222A662CA400EDFCC8 /* RNThePandaFunnyShow.m */; };
+		977BEFAD2A678142004DD1F5 /* RNThePandaFunnyMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = 977BEFAC2A678142004DD1F5 /* RNThePandaFunnyMoment.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNThePandaFunnyStory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNThePandaFunnyStory.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		0BB8416C91E4AD2088C07B7B /* Pods_RNThePandaFunnyStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNThePandaFunnyStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134814201AA4EA6300B7C361 /* libRNThePandaFunnyStory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNThePandaFunnyStory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212AB37A51EA3883DE506F0 /* Pods-RNThePandaFunnyStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNThePandaFunnyStory.release.xcconfig"; path = "Target Support Files/Pods-RNThePandaFunnyStory/Pods-RNThePandaFunnyStory.release.xcconfig"; sourceTree = "<group>"; };
-		977584212A662CA400EDFCC8 /* RNThePandaFunnyShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNThePandaFunnyShow.h; sourceTree = "<group>"; };
-		977584222A662CA400EDFCC8 /* RNThePandaFunnyShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNThePandaFunnyShow.m; sourceTree = "<group>"; };
+		977BEFAB2A678142004DD1F5 /* RNThePandaFunnyMoment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNThePandaFunnyMoment.h; sourceTree = "<group>"; };
+		977BEFAC2A678142004DD1F5 /* RNThePandaFunnyMoment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNThePandaFunnyMoment.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNThePandaFunnyStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNThePandaFunnyStory.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNThePandaFunnyStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNThePandaFunnyStory.m; sourceTree = "<group>"; };
 		C7B86A8C4C6F6D89ECD9411E /* Pods-RNThePandaFunnyStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNThePandaFunnyStory.debug.xcconfig"; path = "Target Support Files/Pods-RNThePandaFunnyStory/Pods-RNThePandaFunnyStory.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RNThePandaFunnyStory.h */,
 				B3E7B5891CC2AC0600A0062D /* RNThePandaFunnyStory.m */,
-				977584212A662CA400EDFCC8 /* RNThePandaFunnyShow.h */,
-				977584222A662CA400EDFCC8 /* RNThePandaFunnyShow.m */,
+				977BEFAB2A678142004DD1F5 /* RNThePandaFunnyMoment.h */,
+				977BEFAC2A678142004DD1F5 /* RNThePandaFunnyMoment.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				41C89EF38DE8BA1575E0B860 /* Pods */,
 				B11377E0FF4488EE10CC9455 /* Frameworks */,
@@ -168,8 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				977584232A662CA400EDFCC8 /* RNThePandaFunnyShow.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNThePandaFunnyStory.m in Sources */,
+				977BEFAD2A678142004DD1F5 /* RNThePandaFunnyMoment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-the-panda-funny-story",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ReactNative ThePandaFunnyStory Component for android and iOS",
   "main": "index.js",
   "scripts": {
